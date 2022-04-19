@@ -12,8 +12,13 @@
 
 ## 如何使用？
 1. 将backup.bat和startbackup.vbs放置在同一目录下.
-2. 为你的Windows创建一个定时任务（“计算机管理（本地）”-“系统工具”-“任务计划程序”-“创建基本任务”）。定时任务的触发器应该被设置为你希望多长时间备份一次。定时任务的操作是执行***startbackup.vbs***。
-![example](https://github.com/btzhao96/EldenRingAutoBackup/blob/main/pic/Timed%20task.png "Example")
+2. 为你的Windows创建一个定时任务（“计算机管理（本地）”-“系统工具”-“任务计划程序”-“创建基本任务”）。
+
+   定时任务的触发器应该被设置为**你希望多长时间备份一次**。
+   ![trigger](https://github.com/btzhao96/EldenRingAutoBackup/blob/main/pic/trigger.png "Trigger Example")
+   
+   定时任务的操作是执行***startbackup.vbs***。
+   ![operation](https://github.com/btzhao96/EldenRingAutoBackup/blob/main/pic/operation.png "Operation Example")
 
 # English
 ## Description
@@ -29,5 +34,10 @@ In backup.bat, edit **your save ID**.
 
 ## How to use?
 1. Place the backup.bat and startbackup.vbs in the same directory.
-2. Create a timed task for your Windows. The trigger of this should be set to how often you want to backup your save. The operation of this task is to execute ***startbackup.vbs***.
-![example](https://github.com/btzhao96/EldenRingAutoBackup/blob/main/pic/Timed%20task.png "Example")
+2. Create a timed task for your Windows. 
+
+   The trigger of this should be set to **how often you want to backup your save**.
+   ![trigger](https://github.com/btzhao96/EldenRingAutoBackup/blob/main/pic/trigger.png "Trigger Example")
+   
+   The operation of this task is to execute ***startbackup.vbs***.
+   ![operation](https://github.com/btzhao96/EldenRingAutoBackup/blob/main/pic/operation.png "Operation Example")
